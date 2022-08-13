@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    height:100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    background-color:	#FAF0E6;
+}
+
+.wrapper{
+    user-select: none;
+}
+.wrapper .time{
+   height:120px;
+   width: 350;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 6px;
+   box-shadow:10px 10px 20px rgba(0,0,0,0.09);
+   padding: 0 10px;
+}
+
+.warapper .time span{
+    width:150px ;
+    background-color: aqua;
+    text-align: center;
+    font-size:large;
+    font-weight: 500;
+    color:#333;
+
+}
+.time span.colon{
+   width: 40px;
+   
+   padding: 10%;
+}
+
+.buttons{
+    padding-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button{
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgb(0 0 0 / 20%) 0 3px 5px -1px, rgb(0 0 0 / 14%) 0 6px 10px 0, rgb(0 0 0 / 12%) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 30px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+    
+    
+
+}
+button:hover{
+    background-color: lightgrey;
+}
